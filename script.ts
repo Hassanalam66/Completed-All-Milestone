@@ -7,8 +7,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     form.addEventListener('submit', function (event) {
         event.preventDefault();
-
-        // Get form values
         const name = (document.getElementById('name') as HTMLInputElement).value;
         const email = (document.getElementById('email') as HTMLInputElement).value;
         const phone = (document.getElementById('phone') as HTMLInputElement).value;
@@ -72,8 +70,6 @@ function makeEditable() {
         element.addEventListener('click', function () {
             const currentElement = element as HTMLElement;
             const currentValue = currentElement.textContent || "";
-
-            // Create and insert input element
             const input = document.createElement('input') as HTMLInputElement;
             input.type = 'text';
             input.value = currentValue;
