@@ -1,17 +1,16 @@
-/* General Styles */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: #f0f4f8; /* Light grey background */
+    background: #f0f4f8;
     color: #333;
 }
 
 h1 {
     text-align: center;
     padding: 20px;
-    background-color: #3f6c6b; /* Teal background */
+    background-color: #3f6c6b; 
     color: white;
     margin: 0;
     border-bottom: 4px solid #2c4b49;
@@ -31,14 +30,14 @@ fieldset {
     border-radius: 8px;
     padding: 15px;
     margin-bottom: 20px;
-    background: #fafafa; /* Very light grey background for form fields */
+    background: #fafafa;
 }
 
 legend {
     font-weight: bold;
     color: #3f6c6b;
     padding: 0 10px;
-    background: #e0f2f1; /* Light teal background for legend */
+    background: #e0f2f1;
     border-radius: 4px;
 }
 
@@ -58,7 +57,7 @@ textarea {
     border: 1px solid #ddd;
     border-radius: 4px;
     font-size: 16px;
-    background: #fff; /* White background for inputs */
+    background: #fff;
 }
 
 input[type="file"] {
