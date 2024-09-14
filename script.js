@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', function () {
     var resumeUrlInput = document.getElementById('resumeUrl');
     form.addEventListener('submit', function (event) {
         event.preventDefault();
-        // Get form values
         var name = document.getElementById('name').value;
         var email = document.getElementById('email').value;
         var phone = document.getElementById('phone').value;
@@ -52,7 +51,6 @@ function makeEditable() {
             var _a;
             var currentElement = element;
             var currentValue = currentElement.textContent || "";
-            // Create and insert input element
             var input = document.createElement('input');
             input.type = 'text';
             input.value = currentValue;
